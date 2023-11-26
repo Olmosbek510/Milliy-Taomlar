@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* universal-codes */
+
+body {
+    background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+}
+
+.boxOne {
+    width: 1300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 3px 10px 15px black;
+}
+
+.boxTwo {
+    width: 200px;
+    height: 152px;
+    background-color: rgba(248, 248, 4, 0.45);
+}
+
+h1.title {
+    padding: 35px 0px;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    padding-left: 100px;
+}
+
+
+
+/* header-starting */
+
+header {
+    width: 100%;
+    padding-top: 400px; 
+}
+
+header .sar {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .sar .box {
+    width: 1030px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-left: 390px;
+    box-shadow: 3px 10px 15px black;
+}
+
+header .sar .box h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 40px;
+}
+
+header .sar .box h1 span {
+    padding-left: 390px;
+}
+
+header .sar .box:nth-of-type(2) {
+    width: 460px;
+    background-color: rgba(248, 248, 4, 0.45);
+}
+
+header p {
+    padding-top: 250px;
+    padding-left: 1090px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 40px;
+    padding-bottom: 400px;
+}
+
+section {
+    width: 100%;
+}
+
+section .sar {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .sar .box {
+    width: 1300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 3px 10px 15px black;
+}
+
+section .sar .box:nth-of-type(2) {
+    width: 200px;
+    background-color: rgba(248, 248, 4, 0.45);
+}
+
+section .bottom {
+    display: flex;
+    align-items: center;
+}
+
+section .bottom img {
+    width: 740px;
+    height: 480px;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+section .bottom p {
+    font-size: 45px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 25px;
+}
+
+section .bottom p span {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+section.img1 {
+    width: 100%;
+    padding-top: 300px;
+    position: relative;
+}
+
+section.img1 .bottom1 img,
+section.img1 .bottom2 img {
+    width: 800px;
+    height: 460px;
+}
+
+section.img1 .bottom1 {
+    position: absolute;
+    top: 200px;
+}
+
+section.img1 .bottom2 {
+    padding-top: 115px;
+    position: absolute;
+    right: 0;
+}
+
+section.img2 {
+    width: 100%;
+    padding-top: 800px;
+    position: relative;
+}
+
+section.img2 .bottom1 img,
+section.img2 .bottom2 img {
+    width: 800px;
+    height: 460px;
+}
+
+section.img2 .bottom1 {
+    position: absolute;
+    top: 700px;
+}
+
+section.img2 .bottom2 {
+    padding-top: 115px;
+    position: absolute;
+    right: 0;
+}
+
+section.img3 {
+    width: 100%;
+    padding-top: 800px;
+    position: relative;
+}
+
+section.img3 .bottom1 img,
+section.img3 .bottom2 img,
+section.img18 .bottom1 img,
+section.img18 .bottom2 img {
+    width: 800px;
+    height: 460px;
+}
+
+section.img3 .bottom1 {
+    position: absolute;
+    top: 700px;
+}
+
+section.img3 .bottom2,
+section.img18 .bottom2 {
+    padding-top: 115px;
+    position: absolute;
+    right: 0;
+}
+
+section.img4 {
+    width: 100%;
+    padding-top: 800px;
+    position: relative;
+}
+
+section.img4 .bottom {
+    padding-left: 200px;
+    position: absolute;
+    top: 820px;
+}
+
+section.img4 .bottom img {
+    width: 1000px;
+    height: 600px;
+}
+
+section.img5 {
+    width: 100%;
+    padding-top: 800px;
+    position: relative;
+}
+
+section.img5 .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+}
+
+section.img5 .bottom p {
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+section.img5 .bottom .right .bottom1 {
+    position: absolute;
+    top: 700px;
+    right: 0;
+}
+
+section.img5 .bottom .right .rightBottom {
+    display: flex;
+}
+
+section.img5 .bottom .right .rightBottom .bottom2 {
+    padding-top: 230px;
+}
+
+section.img5 .bottom .right .rightBottom .bottom2 img {
+    width: 580px;
+    height: 400px;
+}
+
+section.img5 .bottom .right .rightBottom p {
+    padding-top: 300px;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+section.img5 .bottom .right .rightBottom p span {
+    font-size: 35px;
+}
+
+section.img6 {
+    width: 100%;
+    padding-top: 300px;
+    position: relative;
+}
+
+section.img6 .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+}
+
+section.img6 .bottom p {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+section.img6 .bottom .right {
+    display: flex;
+}
+
+section.img6 .bottom .right .bottom1 {
+    padding-top: 100px;
+}
+
+section.img6 .bottom .right .bottom1 img {
+    width: 520px;
+    height: 400px;
+}
+
+section.img6 .bottom .right .rightBottom .bottom2 {
+    position: absolute;
+    top: 200px;
+}
+
+section.img6 .bottom .right .rightBottom .bottom3 {
+    padding-top: 240px;
+}
+
+section.img7 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+}
+
+section.img7 .paragraph,
+section.img12 .paragraph {
+    padding-top: 100px;
+    padding-left: 115px;
+}
+
+section.img7 .paragraph p,
+section.img12 .paragraph p {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+section.img8 {
+    width: 100%;
+    padding-top:200px;
+    position: relative;
+}
+
+section.img8 .bottom {
+    display: flex;
+    align-items: unset;
+}
+
+section.img8 .bottom .imgBottom .bottom1 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+section.img8 .bottom .imgBottom .bottom1 img {
+    width: 600px;
+    height: 400px;
+    padding-left: 0;
+}
+
+section.img8 .bottom .imgBottom .bottom2 {
+    padding-top: 148px;
+    padding-left: 370px;
+}
+
+section.img8 .bottom .imgBottom .bottom2 img {
+    width: 600px;
+    height: 470px;
+}
+
+section.img8 .bottom .imgBottom .bottom3 {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+}
+
+section.img8 .bottom .imgBottom .bottom3 img {
+    width: 500px;
+    height: 700px;
+}
+
+section.img8 .bottom .par {
+    position: absolute;
+    top: 200px;
+    left: 620px;
+}
+
+section.img8 .bottom .par p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+section.img9 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+}
+
+section.img9 .bottom {
+    display: flex;
+    align-items: center;
+}
+
+section.img9 .bottom .leftimg {
+    display: flex;
+}
+
+section.img9 .bottom .bottom1 img,
+section.img9 .bottom .bottom2 img {
+    width: 480px;
+    height: 420px;
+}
+
+section.img9 .bottom .bottom2 img {
+    padding-left: 0;
+}
+
+section.img9 .bottom p {
+    padding-left: 50px;
+}
+
+section.img10 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+}
+
+section.img10 .bottom {
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+section.img10 .bottom .bottom1 img {
+    width: 900px;
+    height: 500px;
+}
+
+section.img10 .bottom p {
+    font-size: 50px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+section.img10 .bottom p span {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+section.img11 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+}
+
+section.img11 .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+}
+
+section.img11 .bottom .paragraph {
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+section.img11 .bottom .paragraph p,
+section.img13 .bottom .paragraph p {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+section.img11 .bottom p .fa-solid,
+section.img13 .bottom p .fa-solid {
+    font-size: 7px;
+    margin-right: 10px;
+}
+
+section.img11 .bottom .bottom1 img {
+    width: 500px;
+    height: 420px;
+    margin-top: 50px;
+}
+
+section.img11 .bottom .bottom2 img {
+    width: 600px;
+    height: 430px;
+    margin-top: unset;
+    padding-left: unset;
+}
+
+section.img12 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img13 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img13 .bottom {
+    align-items: unset;
+}
+
+section.img13 .bottom .paragraph {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+section.img13 .bottom .bottom1 {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+section.img13 .bottom .bottom1 img {
+    height: 430px;
+}
+
+section.img14 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img14 .bottom .paragraph,
+section.img15 .bottom .paragraph,
+section.img16 .bottom .paragraph {
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+section.img14 .bottom .paragraph p:nth-of-type(1),
+section.img14 .bottom .paragraph p:nth-of-type(2),
+section.img15 .bottom .paragraph p:nth-of-type(1),
+section.img16 .bottom .paragraph p:nth-of-type(1),
+section.img16 .bottom .paragraph p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+section.img14 .bottom .paragraph p:nth-of-type(3),
+section.img15 .bottom .paragraph p:nth-of-type(2),
+section.img16 .bottom .paragraph p:nth-of-type(3) {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+} 
+
+section.img14 .bottom .paragraph p:nth-of-type(3) span,
+section.img15 .bottom .paragraph p:nth-of-type(2) span,
+section.img16 .bottom .paragraph p:nth-of-type(3) span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+section.img14 .bottom .bottom1,
+section.img15 .bottom .bottom1 {
+    padding-left: 180px;
+}
+
+section.img15 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img15 .bottom {
+    align-items: unset;
+}
+
+section.img15 .bottom .bottom1 {
+    padding-top: 50px;
+}
+
+section.img15 .bottom .bottom1 img {
+    height: 500px;
+}
+
+section.img15 .bottom .paragraph p:nth-of-type(2) {
+    margin-top: 0;
+}
+
+section.img16 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img16 .bottom .paragraph p:nth-of-type(3) {
+    margin-top: 0;
+}
+
+section.img16 .bottom .bottom1 {
+    padding-top: 60px;
+}
+
+section.img16 .bottom .bottom1 img {
+    width: 850px;
+}
+
+section.img17 {
+    width: 100%;
+    padding-top:150px;
+    position: relative;
+} 
+
+section.img17 .bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.img17 .bottom .paragraph p:nth-of-type(1) {
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+section.img17 .bottom .paragraph p:nth-of-type(2) {
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+section.img17 .bottom .bottom1 {
+    padding-top: 40px;
+}
+
+section.img17 .bottom .bottom1 img {
+    height: 350px;
+    width: 700px;
+}
+
+section.img18 {
+    width: 100%;
+    padding-top:200px;
+    position: relative;
+}
+
+section.img18 .bottom1 {
+    position: absolute;
+    top: 100px;
+}
+
+section.img19 {
+    width: 100%;
+    padding-top:750px;
+    padding-bottom: 100px;
+    position: relative;
+} 
+
+footer {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+footer iframe {
+    width: 1000px;
+    margin-bottom: 50px;
+}
